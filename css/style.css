@@ -263,12 +263,12 @@ a:focus {
 }
 
 a:hover {
-    color: #425BB5;
+    color: #e7a3a3;
     text-decoration: none;
 }
 
 a.active {
-    color: #425BB5;
+    color: #e7a3a3;
 }
 
 
@@ -641,7 +641,7 @@ a.active {
 
 #contact {
     padding: 100px 0;
-    background: #e7a3a3
+    background: #e7a3a3;
 }
 
 #contact-form input,
