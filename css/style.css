@@ -31,9 +31,20 @@ font-family: 'Open Sans', sans-serif;
 ==================================================*/
 
 h1 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Macondo Swash Caps', cursive;
     font-size: 80px;
     line-height: 70px;
+}
+
+#home h1 {
+    font-family: 'Special Elite', cursive;
+    color: rgb(226, 214, 218);
+}
+
+#home h4 {
+    font-family: 'Special Elite', cursive;
+    color: rgb(226, 214, 218);
+    font-size: 40px;
 }
 
 h4 {
@@ -52,11 +63,19 @@ h4 {
     left: -40px;
     content: "";
     display: block;
-    height: 2px;
+    height: 3px;
     background: rgb(226, 214, 218);
-    top: 13px;
+    top: 18px;
 }
 
+.dock p {
+    font-size: 16.5px;
+    font-family: 'Yeon Sung', cursive;
+}
+
+.dock h3 {
+    font-family: 'Yeon Sung', cursive;
+}
 
 /* General
 ==================================================*/
@@ -258,7 +277,7 @@ nav li a {
 }
 
 a:focus {
-    color: #444;
+    color: rgb(233, 145, 119);
     text-decoration: none;
 }
 
@@ -268,7 +287,7 @@ a:hover {
 }
 
 a.active {
-    color: #e7a3a3;
+    color: #e7b6a3;
 }
 
 
@@ -279,16 +298,6 @@ a.active {
     background: url(../img/artifi.jpg);
     background-size: cover;
     height: 100vh;
-}
-
-#home h1 {
-    color: rgb(226, 214, 218);
-}
-
-#home h4 {
-    color: rgb(226, 214, 218);
-    font-size: 25px;
-
 }
 
 .table-cell {
@@ -634,10 +643,6 @@ a.active {
 
 /* contact
 ==================================================*/
-
-.dock p {
-    font-size: 16.5px;
-}
 
 #contact {
     padding: 100px 0;
